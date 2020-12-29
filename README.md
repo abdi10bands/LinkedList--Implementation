@@ -1,2 +1,2 @@
 # LinkedList--Implementation
-Program which stores Book into a hash table data structure. Adds , Searches, Deletes a book from the Hash-Table. Input from a file and output to a file.
+This Program implements a linked list. Can be used for int and char variables by chaging the type def. This program adds elements to the front , and rear. Displays to the user , and checks if the linked list is empty. Does exception handling if there is underflow , and if a node out of range. 
