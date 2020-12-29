@@ -1,10 +1,7 @@
-//CS311 Yoshii
-//INSTRUCTION:
-//Look for ** to complete all of them
-//The output should match my assignment sheet. Check!!!!
+
 
 //=========================================================
-//HW#: HW3P1 llist
+// llist
 //Your name: Abdiel Verdin
 //Complier:  g++
 //File type: client program (tester) HW3P1client.cpp
