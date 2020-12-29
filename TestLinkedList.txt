@@ -1,0 +1,137 @@
+Script started on Sat 17 Oct 2020 10:14:48 PM PDT
+]0;verdi006@empress:~/cs311/CS311Progs/HWPrograms/forHW3[?1034h[verdi006@empress forHW3]$ emacs client1.cp[2Pstack.cpclient1.cplscd HW1P1_stalscd forHWlscd HWProgramlscd CS311Proglscd cs3emacs HW3P1client.cplscd forHWlscd HWPrograprogramlscd CS311Proglscd cs3[2Plogoemacs  llist.cpHW3P1client.cclear[./a.oug++ llist.cpp HW3P1client.cpp
+]0;verdi006@empress:~/cs311/CS311Progs/HWPrograms/forHW3[verdi006@empress forHW3]$ g++ llist.cpp HW3P1client.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pemacs client1.cp[2Pstack.cpclient1.cplscd HW1P1_stalscd forHWlscd HWProgramlscd CS311Proglscd cs3emacs HW3P1client.cplscd forHWlscd HWPrograprogramlscd CS311Proglscd cs3[2Plogoemacs  llist.cpHW3P1client.cclear[./a.oug++ llist.cpp HW3P1client.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[g++ llist.cpp HW3P1client.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./a.out[K
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+[empty]
+Step 3 adding 1 2 3 4
+Step 4
+[1234]
+Step 5 deleteFront twice
+Removed: 1
+Removed: 2
+Step 6
+[34]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+Removed: 3
+Step 9
+It is empty
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+... in llist constructor...
+Step 1 addFront 9 8 6 5
+Step 2
+[5689]
+Step 3 insert first 4
+Step 4 insert 4th 7
+Step 5 insert 7th 10
+[45678910]
+Step 6 insert 9th
+Error: Out of Range. 
+Step7 insert 0th
+Error: Out of Range. 
+Step 8
+[45678910]
+Step 9 delete 1st
+removed 4
+Step 10 delete 6th
+Removed: 10
+Step 11 delete 3rd
+Removed: 7
+[5689]
+Step 12 delete 5th
+Error: Out of Range. 
+Step 13 delete 0th
+Error: Out of Range. 
+Step 14
+[5689]
+Step 15 delete all
+9
+8
+6
+5
+Step 16
+[empty]
+Step 17 insert 0th
+Error: Out of Range. 
+Step 18 deleteFront
+Error: Underflow, List is empty. 
+Step 19 delete 2nd
+Error: Out of Range. 
+Step 20 deleteRear
+Error: Underflow, List is empty . 
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+... in llist constructor...
+... in llist constructor...
+Step1
+L1: [12345]
+Step2
+in copy test
+[123456]
+finished
+.... in llist destructor...
+-- After copytest --- 
+3
+L1: [12345]
+-- Testing operator overloading ---
+Step 4 Gets
+Step 5
+L1: [12345]
+Step 6
+Step 7
+L2: [78910]
+Step 8 Gets
+Step 9
+L2: [12345]
+Step 10
+Step 11
+L1 :[1234]
+Step 12
+L1: [1234]
+Step 13
+L2: [12345]
+.... in llist destructor...
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;verdi006@empress:~/cs311/CS311Progs/HWPrograms/forHW3[verdi006@empress forHW3]$ exit
+exit
+
+Script done on Sat 17 Oct 2020 10:15:29 PM PDT
